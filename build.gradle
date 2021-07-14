@@ -13,7 +13,7 @@ group = project.maven_group
 
 repositories {
 	maven {
-		url "https://maven.terraformersmc.com/releases/"
+		url "https://maven.quiltmc.org/repository/release/"
 	}
 }
 
@@ -39,7 +39,7 @@ dependencies {
 	includeFabricApiModule "fabric-api-base"
 
 	// Config screen integration
-	modImplementation "com.terraformersmc:modmenu:2.0.0-beta.7"
+	modImplementation "com.terraformersmc:modmenu:v2.0.2+1.17.2035ad2"
 }
 
 def includeFabricApiModule(String moduleName) {
