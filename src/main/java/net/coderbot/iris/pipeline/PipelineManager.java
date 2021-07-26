@@ -2,8 +2,12 @@ package net.coderbot.iris.pipeline;
 
 import com.mojang.blaze3d.platform.GlStateManager;
 import net.coderbot.iris.Iris;
+import net.coderbot.iris.pipeline.newshader.CoreWorldRenderingPipeline;
 import net.coderbot.iris.block_rendering.BlockRenderingSettings;
 import net.coderbot.iris.shaderpack.DimensionId;
+import net.minecraft.client.MinecraftClient;
+import net.coderbot.iris.uniforms.SystemTimeUniforms;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.MinecraftClient;
 import org.lwjgl.opengl.GL20C;
 
