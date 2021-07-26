@@ -26,6 +26,7 @@ public class MixinMinecraftClient {
 			Iris.logger.error("An error occurred attempting to reload shaders while joining the world!");
 			e.printStackTrace();
 		}
+	}
 @Mixin(MinecraftClient.class)
 @Environment(EnvType.CLIENT)
 public class MixinMinecraftClient {
